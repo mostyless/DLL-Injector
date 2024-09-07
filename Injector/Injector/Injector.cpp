@@ -16,7 +16,12 @@ bool static inject(const char* dllPath, int pid) {
     }
     printf("[+] Successfully allocated memory\n");
 
-    WriteProcessMemory(hProcess, injectionAddr, dllPath, strlen(dllPath), nullptr);
+    auto hwrite = WriteProcessMemory(hProcess, injectionAddr, dllPath, strlen(dllPath), nullptr);
+    if (!hwrite) {
+        printf("[-] Failed to write to memory\n");
+        return false;
+    }
+    printf("[+] Successfully writen to memory\n");
 
     auto hKernel = GetModuleHandleA("kernel32.dll");
     if (!hKernel) {
