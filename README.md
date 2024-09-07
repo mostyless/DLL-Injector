@@ -27,3 +27,8 @@ Usage: [dll path] [PID]
 <h3>The result</h3>
 
 ![Zrzut ekranu 2024-09-07 130159](https://github.com/user-attachments/assets/1d208c0a-dea9-48b7-b1db-6c176f48a91b)
+
+
+# Example DLL:
+
+the example.dll is a DLL that creates a small popup box when injected into a process. I added it for everyone to be able to quickly test my injector
