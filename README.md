@@ -14,7 +14,8 @@ Usage: [dll path] [PID]
 
 <h3>The setup</h3>
 
-![Zrzut ekranu 2024-09-07 130005](https://github.com/user-attachments/assets/6e62f043-8506-4f22-900d-ff095da09171)
+
+![365362806-6e62f043-8506-4f22-900d-ff095da09171](https://github.com/user-attachments/assets/f68dae24-5b19-483d-8148-337e1e829a91)
 
 <br>
 
